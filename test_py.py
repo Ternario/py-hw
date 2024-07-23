@@ -1,39 +1,3 @@
-from datetime import datetime
-from dateutil.relativedelta import relativedelta
-
-
-# --------------------------------------task 1---------------------------------------------
-
-cars = [
-    ("Bobic obiknovenniy", 2024, "Red"),
-    ("Honda Accord ", 2019, "Blue"),
-    ("Ford Mustang GT", 2001, "Black"),
-    ("Chevrolet 23 ", 2008, "Yellow"),
-    ("Tesla 1 ", 2002, "White"),
-    ("BMW 3", 2021, "Blue"),
-    ("Audi A4", 2010, "Black"),
-    ("Mercedes-Benz C", 2019, "Silver"),
-    ("Hyundai 45", 2012, "Red"),
-    ("Volkswagen Golf plus", 2006, "Green")
-]
-
-
-class Car:
-    def __init__(self, model, year, color):
-        self.model = model
-        self.year = year
-        self.color = color
-
-    def __str__(self):
-        return f"{self.model}, {self.year}, {self.color}"
-
-    def __repr__(self):
-        return f"{self.model}, {self.year}, {self.color}"
-
-
-my_objects = [Car(i, y, z) for i, y, z in cars]
-
-filter_object = filter(lambda x: x.color == "Black", my_objects)
 
 # --------------------------------------task 2---------------------------------------------
 
