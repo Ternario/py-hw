@@ -23,6 +23,8 @@ def is_subset(set1, set2):
         while tmp <= len(temp1) - 1:
             if temp1[tmp] in temp2:
                 tmp += 1
+            else:
+                return False
         else:
             return True
     else:
