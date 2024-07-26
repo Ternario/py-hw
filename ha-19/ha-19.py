@@ -8,8 +8,6 @@ result = defaultdict(set)
 for word in text:
     sort_word = ''.join(sorted(word))
     result[sort_word].add(word)
-# for i in result.items():
-#     print(i)
 
 print([list(v) for k, v in result.items() if len(v) > 1])
 
