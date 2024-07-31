@@ -1,0 +1,4 @@
+Apple, 1.50, 10
+Banana, 0.75, 15
+Lemon, 5, 30
+orange, 1.35, 5
