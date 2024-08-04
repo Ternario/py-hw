@@ -1,46 +1,31 @@
+# ---------------- Task 1 ---------------------
+
 import sys
+import os
 
-print('Список параметров, переданных скрипту')
-print(sys.argv)
-print([arg for arg in sys.argv if arg[0] != '-'])
+get_arg = sys.argv
 
+if os.path.exists(get_arg[1]):
+    if os.path.isfile(get_arg[1]):
 
-import re
+        if get_arg[1][-3:] == ".py":
+            os.system(f"python {get_arg[1]}")
+        else:
+            print("Not a python file")
 
-# def highlight_keywords(text, keywords_arg):
-#     tmp = '|'.join(map(re.escape, keywords_arg))
-#     print(tmp)
-#
-#     new_text = re.sub(tmp, lambda x: f"*{x.group()}*", text, flags=re.IGNORECASE)
-#
-#     return new_text
-#
-#
-# text_str = "This is a sample text. We need to highlight Python and programming."
-# keywords = ["python", "programming"]
-# print(highlight_keywords(text_str, keywords))
+    else:
+        print("Not a file")
+else:
+    print("File not found")
 
 
-# ha 35
+# ---------------- Task 2 ---------------------
 
-import requests
-from collections import Counter
-import re
+import sys
+import os
 
+get_arg = sys.argv
 
-# def get_response(url):
-#     response = requests.get(url)
-#
-#     return response.headers
-#
-#
-# print(get_response("https://lms.itcareerhub.de/mod/assign/view.php?id=3444"))
+os.chdir(get_arg[1])
 
-def find_common_words(url_list):
-    for i in url_list:
-        response = requests.get(i)
-        text = re.findall(r'\b\w\b', response.text.lower())
-
-
-find_common_words(['https://ilibrary.ru/text/436/p.2/index.html',
-                   'https://ilibrary.ru/text/69/p.4/index.html'])
+print([(pathname, dirname, filename) for pathname, dirname, filename in os.walk(os.getcwd())])
