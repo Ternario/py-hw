@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c698c152-e45a-443c-8ce0-12169c6ae28e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/ha-19/ha-19.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ha-20/ha-20.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ha-21/ha-21.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ha-22/ha-22.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ha-22/text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ha-23/ha-23.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ha-24/ha-24.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ha-25/ha-25.py" beforeDir="false" afterPath="$PROJECT_DIR$/ha-26/ha-26.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ha-25/products.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ha-26/products.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "ha-26"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+</project>
