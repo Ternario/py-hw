@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c698c152-e45a-443c-8ce0-12169c6ae28e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ha-28/ha-28.py" beforeDir="false" afterPath="$PROJECT_DIR$/ha-29/ha-29.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ha-29/ha-29.py" beforeDir="false" afterPath="$PROJECT_DIR$/ha-30/ha-30.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +37,12 @@
     "Python.ha-27.executor": "Run",
     "Python.ha-28.executor": "Run",
     "Python.ha-29.executor": "Run",
+    "Python.ha-30.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "ha-29"
+    "git-widget-placeholder": "ha-30"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.ha-29">
+  <component name="RunManager" selected="Python.ha-30">
     <configuration name="ha-26" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_py" />
       <option name="ENV_FILES" value="" />
@@ -130,8 +131,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ha-30" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test_py" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ha-30" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ha-30/ha-30.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ha-30" />
         <item itemvalue="Python.ha-29" />
         <item itemvalue="Python.ha-28" />
         <item itemvalue="Python.ha-27" />
