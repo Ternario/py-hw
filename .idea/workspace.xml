@@ -27,12 +27,12 @@
       </list>
     </option>
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.ha-26.executor": "Debug",
-    "git-widget-placeholder": "ha-26"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.ha-26.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ha-26&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ha-26" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_py" />
