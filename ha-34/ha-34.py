@@ -7,20 +7,18 @@ def extract_emails(text: str) -> list:
     return re.findall(r'[\w.+-]+@[\w-]+\.[\w.-]+', text)
 
 
-text = "Contact us at info@example.com or support@example.com for assistance."
-print(extract_emails(text))
+em_text = "Contact us at info@example.com or support@example.com for assistance."
+print(extract_emails(em_text))
 
 # ---------------- Task 2 ---------------------
 
 import re
 
 
-def highlight_keywords(text, keywords_arg):
+def highlight_keywords(text: str, keywords_arg: list) -> str:
     tmp = '|'.join(map(re.escape, keywords_arg))
 
-    new_text = re.sub(tmp, lambda x: f"*{x.group()}*", text, flags=re.IGNORECASE)
-
-    return new_text
+    return re.sub(tmp, lambda x: f"*{x.group()}*", text, flags=re.IGNORECASE)
 
 
 text_str = "This is a sample text. We need to highlight Python and programming."
